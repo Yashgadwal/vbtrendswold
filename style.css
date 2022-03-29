@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.navbar-brand
+{
+    font-family: 'Playfair Display', serif;
+}
+
+#slider
+{
+    height: 100vh;
+}
+
+h1
+{
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    animation-name: h1a;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+}
+
+@keyframes h1a{
+    from {font-size: 5px;}
+    to {font-size: 1.5rem;}
+    from{font-weight: 100;}
+    to{font-weight: bold;}
+    from{margin-top: 0rem;}
+    to{margin-top: 2rem;}
+    from{margin-bottom: 0rem;}
+    to{margin-bottom: 2rem;}
+    from{font-family: 'Playfair Display', serif;}
+    to{font-family: 'Playfair Display', serif;}
+    /* color change */
+        0% {color: red;}
+        25%{color:rgb(195, 0, 255);}
+        50%{color:rgb(113, 230, 191);}
+        75%{color:rgb(17, 0, 255);}
+        100% {color: rgb(0, 0, 0);}
+}
+
+
+body
+{
+    background-color: white;
+    height: 100%;
+    /* background-image: linear-gradient(#fd746c,#ff9068); */
+    background-attachment: fixed;
+}
+
+.card-img-top
+{
+    width: 100%;
+    height: 13rem;
+}
+.p-6{
+background-color: white;
+}
+
+.card-body
+{
+    width: 100%;
+    height: 6rem;
+}
+
+.card
+{
+    
+    margin-bottom: 5rem;
+}
+
+.card-title
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.card-text
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-group
+{
+    margin-left: 30px; ;
+    margin-right: 30px; ;
+}
+
+section a{
+    /* text-decoration: underline; */
+    color: black;
+}
+
+section a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.kurti2{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/* Buttons  */
+/* CSS */
+.button-74 {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-74:hover {
+    background-color: #fff;
+  }
+  
+  .button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-74 {
+      min-width: 120px;
+      padding: 0 25px;
+}
